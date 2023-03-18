@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+    background-color: linen;
+}
+
+.bg {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGPOwGMLf3dhBbxe3E8Au0aIUuRRxfCR_wNw&usqp=CAU')
+    no-repeat center center/cover;
+    width: 100vh;
+    height: 100vh;
+    filter: blur(30px);
+    z-index: -1;
+    position: absolute;
+}
+
+.loading-text {
+    font-size: 50px;
+    color:white;
+}
