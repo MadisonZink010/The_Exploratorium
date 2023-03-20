@@ -11,13 +11,10 @@ body {
 }
 
 .container {
-    top: 50%;
-    left: 50%;
-    height: 150px;
-    width: 300px;
-    align-items: center;
-    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
     text-align: center;
+    width: 800px;
 }
 
 .btn {
