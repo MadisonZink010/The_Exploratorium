@@ -1,5 +1,68 @@
 
 
 body {
-    
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+    background-color: darkslategray;
+}
+
+.container {
+    position: absolute;
+    background-color: cadetblue;
+    padding: 50px;
+    font-size: 40px;
+    top: 5;
+    left: 10;
+    height: 150px;
+    width: 300px;
+}
+
+.navigation1 button {
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    font-size: 50px;
+    height: 100px;
+}
+
+
+
+.expanding button {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+}
+
+.loading button {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+}
+
+.progress button {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+}
+
+.search button {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: white;
 }
