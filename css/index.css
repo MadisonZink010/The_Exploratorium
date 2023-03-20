@@ -23,7 +23,6 @@ body {
 }
 
 .navigation1 button {
-    cursor: pointer;
     padding: 10px;
     color: white;
     font-size: 50px;
@@ -33,7 +32,6 @@ body {
 
 .expanding button {
     display: flex;
-    cursor: pointer;
     align-items: center;
     justify-content: center;
     padding: 10px;
@@ -42,7 +40,6 @@ body {
 
 .loading button {
     display: flex;
-    cursor: pointer;
     align-items: center;
     justify-content: center;
     padding: 10px;
@@ -51,7 +48,6 @@ body {
 
 .progress button {
     display: flex;
-    cursor: pointer;
     align-items: center;
     justify-content: center;
     padding: 10px;
@@ -60,7 +56,6 @@ body {
 
 .search button {
     display: flex;
-    cursor: pointer;
     align-items: center;
     justify-content: center;
     padding: 10px;
