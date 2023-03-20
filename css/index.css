@@ -11,53 +11,21 @@ body {
 }
 
 .container {
-    background-color: cadetblue;
     padding: 50px;
-    font-size: 40px;
     top: 5;
-    left: 10;
+    left: 5;
     height: 150px;
     width: 300px;
     align-items: center;
     justify-content: center;
 }
 
-.navigation1 button {
-    padding: 10px;
-    color: white;
-    font-size: 50px;
-    height: 100px;
-}
-
-
-.expanding button {
+.btn {
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-    color: white;
-}
-
-.loading button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    color: white;
-}
-
-.progress button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    color: white;
-}
-
-.search button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    color: white;
+    padding: 8px;
+    font-size: 16px;
+    margin: 12px;
 }
