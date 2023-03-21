@@ -11,5 +11,11 @@ body {
     text-align: center;
     margin: 0;
     overflow: hidden;
+}
+
+.btn {
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
     
 }
