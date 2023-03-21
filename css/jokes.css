@@ -15,11 +15,12 @@ body {
     border-radius: 10px;
     text-align: center;
     width: 800px;
+    pading: 50px 20px;
 }
 
 h3 {
     margin: 0;
-    opacity: 0.5;
+    text-align: center;
     letter-spacing: 2px;
 }
 
