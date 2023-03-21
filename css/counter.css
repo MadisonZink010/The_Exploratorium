@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
+
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #8e44ad;
@@ -23,5 +24,10 @@ body {
 .counter {
     font-size: 50px;
     margin-top: 10px;
+}
 
+@media (max-width: 580px) {
+    body {
+        flex-direction: column
+    }
 }
