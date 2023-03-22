@@ -30,16 +30,8 @@ body {
     margin: 12px;
 }
 
-h1 {
-    display: flex;
-    text-align:top right;
-    justify-content: top right;
-}
-
-small {
-    display: flex;
-    text-align:top right;
-    justify-content: top right;
+.content h3 {
+    
 }
 
 @media (max-width: 580px) {
