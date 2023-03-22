@@ -6,7 +6,6 @@ body {
     display: flex;
     height: 100vh;
     margin: 0;
-    overflow: hidden;
     background-color: cadetblue;
 }
 
