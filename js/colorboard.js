@@ -22,5 +22,5 @@ function setColor(square) {
 }
 
 function getRandomColor() {
-    return colors[Math.floor(Math.random()*colors)]
+    return colors[Math.floor(Math.random()*5)]
 }
