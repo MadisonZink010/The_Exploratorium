@@ -7,7 +7,7 @@ body {
     height: 100vh;
     margin: 0;
     overflow: hidden;
-    background-color: darkslategray;
+    background-color: cadetblue;
 }
 
 .container {
@@ -32,17 +32,14 @@ body {
 
 h1 {
     display: flex;
-    text-align:center;
-    justify-content: center;
-    margin-left: 400px;
+    text-align:top right;
+    justify-content: top right;
 }
 
 small {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    position: relative;
+    text-align:top right;
+    justify-content: top right;
 }
 
 @media (max-width: 580px) {
