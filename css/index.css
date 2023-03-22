@@ -16,8 +16,8 @@ body {
     background-color: white;
     border-radius: 10px;
     text-align: center;
-    width: 200px;
-    height: 600px;
+    width: 210px;
+    max-height: 300px;
 }
 
 .btn {
@@ -30,8 +30,8 @@ body {
     margin: 12px;
 }
 
-.content h3 {
-    
+.content {
+    padding: 15px;
 }
 
 @media (max-width: 580px) {
