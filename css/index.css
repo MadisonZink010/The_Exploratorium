@@ -5,18 +5,19 @@ body {
     font-family: 'Roboto Slab', serif;
     display: flex;
     height: 100vh;
-    align-items: center;
-    justify-content: center;
     margin: 0;
     overflow: hidden;
     background-color: darkslategray;
 }
 
 .container {
+    align-items: bottom left;
+    justify-content: bottom left;
     background-color: white;
     border-radius: 10px;
     text-align: center;
     width: 200px;
+    height: 600px;
 }
 
 .btn {
@@ -27,4 +28,25 @@ body {
     padding: 8px;
     font-size: 16px;
     margin: 12px;
+}
+
+h1 {
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    margin-left: 400px;
+}
+
+small {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+@media (max-width: 580px) {
+    body {
+        flex-direction: column
+    }
 }
