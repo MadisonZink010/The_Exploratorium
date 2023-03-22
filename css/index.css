@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
 
@@ -11,17 +11,18 @@ body {
 }
 
 .container {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Kanit', sans-serif;
     align-items: bottom left;
     justify-content: bottom left;
     background-color: white;
     border-radius: 10px;
     text-align: center;
-    width: 210px;
-    max-height: 300px;
+    width: 260px;
+    max-height: 325px;
 }
 
 .btn {
+    font-family: 'Kanit', sans-serif;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -33,7 +34,7 @@ body {
 
 .content {
     font-family: 'Merriweather', serif;
-    padding: 15px;
+    padding: 20px 40px;
 }
 
 @media (max-width: 580px) {
