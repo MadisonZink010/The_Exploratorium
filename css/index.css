@@ -20,8 +20,7 @@ body {
     min-height: 700px;
     margin-left: 10px;
     margin-top: 100px;
-    margin-bottom: 100px;
-
+    bottom: 20px;
 }
 
 .btn {
