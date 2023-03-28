@@ -1,5 +1,5 @@
-const button = document.querySelectorAll('.button')
+const button = document.querySelectorAll('.expander')
 
-button.addEventListener('click', () => {
-
+expander.addEventListener('click', () => {
+    
 })
