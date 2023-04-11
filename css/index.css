@@ -23,11 +23,6 @@ body {
     bottom: 20px;
 }
 
-.expander {
-    cursor: pointer;
-    margin-top: 200px;
-}
-
 .btn {
     font-family: 'Kanit', sans-serif;
     cursor: pointer;
